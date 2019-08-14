@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login page validation",
+        "description": "",
+        "id": "login-page-validation;login-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18432392971,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the url",
+            "match": {
+              "location": "Login_page_validation.open_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1190566721,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Provide User name",
+            "match": {
+              "location": "Login_page_validation.provide_User_name()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "cheeck box validation",
+        "description": "",
+        "id": "login-page-validation;cheeck-box-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14020646581,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the url",
+            "match": {
+              "location": "Login_page_validation.open_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1281749154,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Provide User name",
+            "match": {
+              "location": "Login_page_validation.provide_User_name()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login page validation",
+    "description": "",
+    "id": "login-page-validation",
+    "keyword": "Feature",
+    "uri": "loginPage.feature"
+  }
+]
